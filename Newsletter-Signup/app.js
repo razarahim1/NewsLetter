@@ -62,6 +62,6 @@ app.post("/",(req,res)=>{
 //00e83ec27a
 
 
-app.listen(3000,function(){
+app.listen(process,env.PORT || 3000,function(){
     console.log("Server is running on port 3000")
 })
